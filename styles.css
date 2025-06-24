@@ -1,0 +1,20 @@
+h2{
+            color: rgb(45, 145,20);
+            text-align: center;
+            text-decoration: double;
+            margin-top: 40px;
+            font-family: 'times new roman', times,serif;
+            text-size-adjust: 90;
+        }
+ h1{
+            padding: 20px;
+        }
+p{
+    color: red;
+    text-align: center0;
+    border: 2px solid black;
+    font-style: italic;
+    padding: 20px;
+    width: 50%;
+
+}

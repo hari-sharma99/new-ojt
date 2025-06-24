@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id Card</title>
+    <style>
+        /*universal selector*/
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        /*type selector*/
+        img {
+                width: 200px;
+                border-radius: 10px;
+                
+        }
+        /*class selector*/
+        .id-card{
+            border: 3px solid rgb(187, 106, 14);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 16px;
+            width: 300px;
+            font: size 10px;
+        }
+        .head{
+            font-size: xmedium;
+            color: white;
+            background-color: rgb(146, 70, 218);
+            text-align: center;
+            border-radius: 20px;
+        }
+        .head2{
+                font-size: 1rem;
+                text-align: center;
+                margin-top: 10px;
+        }
+        .head3{
+            margin-top: 6px;
+            text-align: right;
+            font-size: small;
+        }
+        .school-contact{
+            text-align: right;
+            font-size: xx-small;
+        }
+        .card-title{
+            font-size: xx-medium;
+            text-align: center;
+        }
+        /*Desendant selector*/
+        .card .card-title{
+            font-size: 2.6rem;
+            margin: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="id-card">
+    <h1 class="head">Birethanti secondary school</h1>
+    <h2 class="head2">Annapurna Rural municipality-8 Birethanti kaski</h2>
+    <h3 class="head3"> ESTD:2032 BS</h3>
+    <h4 class="school-contact"> contact:061-591959</h4>
+        <h1  class="card-title">identity card</h1>
+        <img src="resourses/d.jpg" alt="id-card-photo">
+        <h2 class="name">Hari Giri</h2>
+      <h5 class="address">annapurna 7 kaski</h5>
+      <h6 class="contact">9746435013</h6>
+      <h5 class="age">14</h5>
+    </div>
+</body>
+</html>
